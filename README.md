@@ -5,8 +5,8 @@ Pengembangan Web INVOSE (www.invose.com) | Informatics Engineering | Universitas
 ```
   1. Buat dulu Account github
   2. Download Software Git disini http://git-scm.com/downloads
-  3. Jangan lupa Intall Juga WT-NMP (seperti xampp, tapi menggunakan Nginx, sedangkan kalau
-  xampp menggunakan Apache). Download disini https://sourceforge.net/projects/wtnmp/files/latest/download
+  3. Jangan lupa Install juga WT-NMP (seperti xampp, tapi menggunakan Nginx, sedangkan kalau
+  xampp mnggunakan Apache). Download >> https://sourceforge.net/projects/wtnmp/files/latest/download
   4. Install dan jalankan Git Bash
   5. Kemudian pindahkan direktori Terminal Git Bash ke folder WWW milik WT-NMP. Caranya ketikkan
         cd /c/WT-NMP/WWW
@@ -22,14 +22,16 @@ Pengembangan Web INVOSE (www.invose.com) | Informatics Engineering | Universitas
         cd
         ssh-keygen -t rsa -C "your_email@example.com"
   10. Kemudian akan keluar tulisan "Enter file in which to save the key...bla bla bla" (tekan enter saja)
-      Kemudian akan keluar tulisan "Enter passphrase...", ketikkan password untuk koneksi ssh dan kemudian
-      akan muncul lagi, ketikkan passwordnya lagi. Kemudian ketikkan perintah lagi :
+      Kemudian akan keluar tulisan "Enter passphrase...", ketikkan password untuk koneksi ssh dan
+      kemudian akan muncul lagi, ketikkan passwordnya lagi. Kemudian ketikkan perintah lagi :
         ssh-agent -s
         ssh-add ~/.ssh/id_rsa
         clip < ~/.ssh/id_rsa.pub
   11. Setelah itu, buka GitHub. Kemudian lihat di pojok kanan atas, dan klik Settings. Setelah itu,
       masuk ke "SSH Keys" (di samping). Dan klik Add SSH Key, setelah itu ketikkan judulnya terserah.
-      Kemudian tekan CTRL + V di box "Key". Klik Add Key, DONE. IT'S TIME TO START. LET'S WRITE A CODE :)
+      Kemudian tekan CTRL + V di box "Key". Klik Add Key, DONE.
+      
+      IT'S TIME TO START. LET'S WRITE A CODE :)
 ```
 
 # Keterangan
