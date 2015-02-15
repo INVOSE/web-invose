@@ -9,24 +9,24 @@ Pengembangan Web INVOSE (www.invose.com) | Informatics Engineering | Universitas
   xampp mnggunakan Apache). Download >> https://sourceforge.net/projects/wtnmp/files/latest/download
   4. Install dan jalankan Git Bash
   5. Kemudian pindahkan direktori Terminal Git Bash ke folder WWW milik WT-NMP. Caranya ketikkan
-        cd /c/WT-NMP/WWW
+        $ cd /c/WT-NMP/WWW
   6. Kemudian buat sebuah folder baru, misalnya INVOSE
-        mkdir INVOSE
+        $ mkdir INVOSE
   7. Setelah itu pindah ke direktori INVOSE
-        cd INVOSE
+        $ cd INVOSE
   8. Setelah itu ketikkan (satu2) :
-        git config --global user.name "Username_Github"
-        git config --global user.email "Email_Github"
+        $ git config --global user.name "Username_Github"
+        $ git config --global user.email "Email_Github"
   9. Agar bisa melakukan push dan pull di github, harus ada yg namanya pairing (disini menggunakan ssh)
      Ketikkan perintahnya satu-satu (satu enter, satu enter) :
-        cd
-        ssh-keygen -t rsa -C "your_email@example.com"
+        $ cd
+        $ ssh-keygen -t rsa -C "your_email@example.com"
   10. Kemudian akan keluar tulisan "Enter file in which to save the key...bla bla bla" (tekan enter saja)
       Kemudian akan keluar tulisan "Enter passphrase...", ketikkan password untuk koneksi ssh dan
       kemudian akan muncul lagi, ketikkan passwordnya lagi. Kemudian ketikkan perintah lagi :
-        ssh-agent -s
-        ssh-add ~/.ssh/id_rsa
-        clip < ~/.ssh/id_rsa.pub
+        $ ssh-agent -s
+        $ ssh-add ~/.ssh/id_rsa
+        $ clip < ~/.ssh/id_rsa.pub
   11. Setelah itu, buka GitHub. Kemudian lihat di pojok kanan atas, dan klik Settings. Setelah itu,
       masuk ke "SSH Keys" (di samping). Dan klik Add SSH Key, setelah itu ketikkan judulnya terserah.
       Kemudian tekan CTRL + V di box "Key". Klik Add Key, DONE.
