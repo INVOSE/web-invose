@@ -1,10 +1,11 @@
 <?php
+	<!DOCTYPE html>
+	<html>
+		<head>
 
-hooaaaahhhmmm
-echo "Nabil Muhammad Firdaus";
-hahahaha
-hohoho
-wwwwww
-yyyyy
+		</head>
+		<body>
 
+		</body>
+	</html>
 ?>
